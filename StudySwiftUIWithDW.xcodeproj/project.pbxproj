@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04E48BA92871C937002A63CF /* StudySwiftUIWidthDWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48BA82871C937002A63CF /* StudySwiftUIWidthDWApp.swift */; };
+		0451DE87287AADDB003F6439 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451DE86287AADDB003F6439 /* DetailView.swift */; };
+		04E48BA92871C937002A63CF /* StudySwiftUIWithDWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48BA82871C937002A63CF /* StudySwiftUIWithDWApp.swift */; };
 		04E48BAB2871C937002A63CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48BAA2871C937002A63CF /* ContentView.swift */; };
 		04E48BAD2871C937002A63CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E48BAC2871C937002A63CF /* Assets.xcassets */; };
 		04E48BB02871C937002A63CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E48BAF2871C937002A63CF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0451DE86287AADDB003F6439 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		04E48BA52871C937002A63CF /* StudySwiftUIWidthDW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUIWidthDW.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E48BA82871C937002A63CF /* StudySwiftUIWidthDWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIWidthDWApp.swift; sourceTree = "<group>"; };
+		04E48BA82871C937002A63CF /* StudySwiftUIWithDWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIWithDWApp.swift; sourceTree = "<group>"; };
 		04E48BAA2871C937002A63CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04E48BAC2871C937002A63CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E48BAF2871C937002A63CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +37,7 @@
 		04E48B9C2871C936002A63CF = {
 			isa = PBXGroup;
 			children = (
-				04E48BA72871C937002A63CF /* StudySwiftUIWidthDW */,
+				04E48BA72871C937002A63CF /* StudySwiftUIWithDW */,
 				04E48BA62871C937002A63CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +50,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04E48BA72871C937002A63CF /* StudySwiftUIWidthDW */ = {
+		04E48BA72871C937002A63CF /* StudySwiftUIWithDW */ = {
 			isa = PBXGroup;
 			children = (
-				04E48BA82871C937002A63CF /* StudySwiftUIWidthDWApp.swift */,
+				04E48BA82871C937002A63CF /* StudySwiftUIWithDWApp.swift */,
 				04E48BAA2871C937002A63CF /* ContentView.swift */,
+				0451DE86287AADDB003F6439 /* DetailView.swift */,
 				04E48BAC2871C937002A63CF /* Assets.xcassets */,
 				04E48BAE2871C937002A63CF /* Preview Content */,
 			);
-			path = StudySwiftUIWidthDW;
+			path = StudySwiftUIWithDW;
 			sourceTree = "<group>";
 		};
 		04E48BAE2871C937002A63CF /* Preview Content */ = {
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04E48BA02871C936002A63CF /* Build configuration list for PBXProject "StudySwiftUIWidthDW" */;
+			buildConfigurationList = 04E48BA02871C936002A63CF /* Build configuration list for PBXProject "StudySwiftUIWithDW" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E48BAB2871C937002A63CF /* ContentView.swift in Sources */,
-				04E48BA92871C937002A63CF /* StudySwiftUIWidthDWApp.swift in Sources */,
+				0451DE87287AADDB003F6439 /* DetailView.swift in Sources */,
+				04E48BA92871C937002A63CF /* StudySwiftUIWithDWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E48BA02871C936002A63CF /* Build configuration list for PBXProject "StudySwiftUIWidthDW" */ = {
+		04E48BA02871C936002A63CF /* Build configuration list for PBXProject "StudySwiftUIWithDW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E48BB12871C937002A63CF /* Debug */,
